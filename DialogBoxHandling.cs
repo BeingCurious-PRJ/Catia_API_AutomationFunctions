@@ -7,7 +7,7 @@ using Excel = Microsoft.Office.Interop.Excel;
 
 namespace Automation_Functions_Methods
 {
-    public static class WindowsDialogBox_Handling
+    public static class DialogBoxHandling
     {
         static string xmlPath;
         public static string OpenDialogBoxAndGetExcelFilePath()
