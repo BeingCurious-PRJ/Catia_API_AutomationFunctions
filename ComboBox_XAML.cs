@@ -1,11 +1,14 @@
 using System.Collections.Generic;
 
-public class ComboBoxViewHandler
+namespace Automation_Functions_Methods
 {
-    List<string> comboBoxItems;
-    public ComboBoxViewHandler(List<string> items)
+    public class ComboBoxViewHandler
     {
-        comboBoxItems = items;
+        List<string> comboBoxItems;
+        public ComboBoxViewHandler(List<string> items)
+        {
+             comboBoxItems = items;
+        }
+        public List<string> ComboBoxItems {get => comboBoxItems; set => comboBoxItems = value;}
     }
-    public List<string> ComboBoxItems {get => comboBoxItems; set => comboBoxItems = value;}
 }
